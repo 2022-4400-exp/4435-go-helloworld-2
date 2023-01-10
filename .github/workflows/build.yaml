@@ -29,3 +29,4 @@ jobs:
             --push \
             --platform linux/arm/v7,linux/amd64 \
             -t ghcr.io/2022-4400-exp/4435-go-helloworld-2:${{ github.sha }} .
+            
